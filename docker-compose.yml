@@ -1,0 +1,8 @@
+services:
+  sentiment:
+    build: 
+      context: ./
+    container_name: sentiment
+    volumes:
+      - .:/app
+  
